@@ -5,7 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CountTrue_Test {
     @Test
     public void countTrue_1() {
-        assertEquals(Challenges.countTrueFalse(new boolean[] { true, false, false, true, false }), (2));
+        boolean[] test =new boolean[] { true, false, false, true, false };
+        assertEquals(Challenges.countTrueFalse(test), (2));
     }
 
     @Test
